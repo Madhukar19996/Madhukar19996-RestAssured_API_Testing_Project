@@ -34,8 +34,8 @@ public class Auth2AuthenticationDemo {
 	@Test
 	void verifyOAuth2Authentication() {
 
-		String clientId = "AToMU8MHkVA_zXs-VGUKjNtwrq4ollVrrABId8FTNAwT48a73lU30OMyykRyrhDK6jKUbwtCnkcC-4F6";
-		String clientSecret = "EMsY7AecCvWEWN5TpLAWravPHLcrAcciYMdHSCriGAWXAi7s14T_2FVB0wn4fAJKVEcW687N2X82RzoJ";
+		String clientId = "AToMU8MHkVA_zXs-****jNtwrq4ollVrr****d8FTNAwT48a73lU30OMyykRyrh****jKUbwtCnkcC-4F6";
+		String clientSecret = "EMsY7AecCvWEWN5TpLAWrav***crAcciYMdHSCriGAWXAi7s***_2FVB***4fAJKVEcW687N2X82RzoJ";
 		
 		String token=given()
 				.auth().preemptive().basic(clientId, clientSecret)
