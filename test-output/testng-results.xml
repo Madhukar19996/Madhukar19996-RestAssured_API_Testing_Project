@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-22T18:54:33 IST" name="Default suite" finished-at="2025-06-22T18:54:38 IST" duration-ms="4360">
+  <suite started-at="2025-06-22T20:11:25 IST" name="Default suite" finished-at="2025-06-22T20:11:31 IST" duration-ms="6652">
     <groups>
     </groups>
-    <test started-at="2025-06-22T18:54:33 IST" name="Default test" finished-at="2025-06-22T18:54:38 IST" duration-ms="4360">
+    <test started-at="2025-06-22T20:11:25 IST" name="Default test" finished-at="2025-06-22T20:11:31 IST" duration-ms="6652">
       <class name="day3.Auth2AuthenticationDemo">
-        <test-method signature="verifyOAuth2Authentication()[pri:0, instance:day3.Auth2AuthenticationDemo@1bd4fdd]" started-at="2025-06-22T18:54:33 IST" name="verifyOAuth2Authentication" finished-at="2025-06-22T18:54:38 IST" duration-ms="4298" status="PASS">
+        <test-method signature="verifyOAuth2Authentication()[pri:0, instance:day3.Auth2AuthenticationDemo@1bd4fdd]" started-at="2025-06-22T20:11:25 IST" name="verifyOAuth2Authentication" finished-at="2025-06-22T20:11:31 IST" duration-ms="6546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOAuth2Authentication -->
