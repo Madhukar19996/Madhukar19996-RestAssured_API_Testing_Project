@@ -1,0 +1,9 @@
+{
+      "name": "Ankit",
+      "location": "Russia",
+      "phone": "1535498765",
+      "courses": [
+        ".Net",
+        "FastAPI"
+      ]
+    }
