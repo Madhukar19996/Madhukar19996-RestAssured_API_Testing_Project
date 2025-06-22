@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
  -d "grant_type=client_credentials"
 
 ##Postman:
-=========
+==========
 1.Set the verb to POST.
 2.Enter https://api-m.sandbox.paypal.com/v1/oauth2/token as the request URL.
 3.Select the Authorization tab.
@@ -34,11 +34,11 @@ public class Auth2AuthenticationDemo {
 	@Test
 	void verifyOAuth2Authentication() {
 
-		String clientId = "AToMU8MHkVA_zXs-VGUKjNtwrq4ollVrrABId8FTNAwT48a73lU30OMyykRyrhDK6jKUbwtCnkcC-4F6";
-		String clientSecret = "EMsY7AecCvWEWN5TpLAWravPHLcrAcciYMdHSCriGAWXAi7s14T_2FVB0wn4fAJKVEcW687N2X82RzoJ";
+		String clientId ;
+		String clientSecret ;
 		
 		String token=given()
-				.auth().preemptive().basic(clientId, clientSecret)
+				.auth().preemptive().basic("bjdbc","hhjkn" )
 				.param("grant_type", "client_credentials")
 
 				.when()
