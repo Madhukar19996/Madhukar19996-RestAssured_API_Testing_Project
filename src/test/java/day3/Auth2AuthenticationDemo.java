@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
  -d "grant_type=client_credentials"
 
 ##Postman:
-==========
+===========
 1.Set the verb to POST.
 2.Enter https://api-m.sandbox.paypal.com/v1/oauth2/token as the request URL.
 3.Select the Authorization tab.
