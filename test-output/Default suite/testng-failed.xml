@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day3.Auth2AuthenticationDemo">
+      <class name="day4.AssignmentSingleFileUpload">
         <methods>
-          <include name="verifyOAuth2Authentication"/>
+          <include name="uploadSingleFile"/>
         </methods>
-      </class> <!-- day3.Auth2AuthenticationDemo -->
+      </class> <!-- day4.AssignmentSingleFileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
