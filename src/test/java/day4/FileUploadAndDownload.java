@@ -58,7 +58,7 @@ public class FileUploadAndDownload {
 		void downloadfile()
 		{
 			given()
-			     .pathParam("filename", "students.json")
+			//1) Single file upload 
 			     
 			
 			.when()

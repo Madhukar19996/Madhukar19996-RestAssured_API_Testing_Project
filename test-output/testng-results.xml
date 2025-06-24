@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-23T09:39:32 IST" name="Default suite" finished-at="2025-06-23T09:39:38 IST" duration-ms="5679">
+  <suite started-at="2025-06-24T09:20:55 IST" name="Default suite" finished-at="2025-06-24T09:20:57 IST" duration-ms="1651">
     <groups>
     </groups>
-    <test started-at="2025-06-23T09:39:32 IST" name="Default test" finished-at="2025-06-23T09:39:38 IST" duration-ms="5679">
-      <class name="day4.AssignmentSingleFileUpload">
-        <test-method signature="uploadSingleFile()[pri:0, instance:day4.AssignmentSingleFileUpload@1bd4fdd]" started-at="2025-06-23T09:39:32 IST" name="uploadSingleFile" finished-at="2025-06-23T09:39:38 IST" duration-ms="5623" status="PASS">
+    <test started-at="2025-06-24T09:20:55 IST" name="Default test" finished-at="2025-06-24T09:20:57 IST" duration-ms="1651">
+      <class name="day5.ParsingComplexResponseJson">
+        <test-method signature="testUserDetailsValidation()[pri:1, instance:day5.ParsingComplexResponseJson@7d8995e]" started-at="2025-06-24T09:20:55 IST" name="testUserDetailsValidation" finished-at="2025-06-24T09:20:57 IST" duration-ms="1596" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadSingleFile -->
-      </class> <!-- day4.AssignmentSingleFileUpload -->
+        </test-method> <!-- testUserDetailsValidation -->
+      </class> <!-- day5.ParsingComplexResponseJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,6 +9,8 @@ import static io.restassured.RestAssured.*;
 
 public class AssignmentSingleFileUpload {
 
+	//1) Single file upload 
+	
 	@Test()
 
 	void uploadSingleFile()
@@ -25,6 +27,24 @@ public class AssignmentSingleFileUpload {
 		.then()
 		.statusCode(200)
 		//.body("fileName", equalTo("Sales Data.txt"))
+		.log().body();
+	}
+	
+	//2) Single file download 
+	@Test()
+	void downloadSingleFile()
+	{
+		
+		given()
+		      .pathParam("filename", "test.txt")
+		
+
+		.when()
+		    .get("https://the-internet.herokuapp.com/download/{filename}")
+
+
+		.then()
+		.statusCode(200)
 		.log().body();
 	}
 
