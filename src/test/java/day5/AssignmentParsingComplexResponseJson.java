@@ -95,11 +95,22 @@ public class AssignmentParsingComplexResponseJson {
 		assertThat(English,is("English"));
 		assertThat(Spanish,is("Spanish"));
 		assertThat(French,is("French"));
+		
+		
+		//b) Confirm the requestId is "abc123xyz" and the responseTimeMs is less than 300 ms.
+		
+	    String reqId =jsonPath.getString("meta.requestId");
+	    int responseTime =jsonPath.getInt("meta.responseTimeMs");
+	    
+	    assertThat(reqId,is("abc123xyz"));
+	    assertThat(responseTime,is(250));
 
 
 
 
 	}
+	
+	
 
 	
 }

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-25T08:28:58 IST" name="Default suite" finished-at="2025-06-25T08:29:00 IST" duration-ms="1829">
+  <suite started-at="2025-06-26T09:04:49 IST" name="Default suite" finished-at="2025-06-26T09:04:51 IST" duration-ms="1692">
     <groups>
     </groups>
-    <test started-at="2025-06-25T08:28:58 IST" name="Default test" finished-at="2025-06-25T08:29:00 IST" duration-ms="1829">
-      <class name="day5.AssignmentParsingComplexResponseJson">
-        <test-method signature="testRecentOrdersValidation()[pri:1, instance:day5.AssignmentParsingComplexResponseJson@7d8995e]" started-at="2025-06-25T08:28:58 IST" name="testRecentOrdersValidation" finished-at="2025-06-25T08:29:00 IST" duration-ms="1687" status="PASS">
+    <test started-at="2025-06-26T09:04:49 IST" name="Default test" finished-at="2025-06-26T09:04:51 IST" duration-ms="1692">
+      <class name="day6.LabAssignmentParsingJsonResponse">
+        <test-method signature="testSimpleJsonParsingValidation()[pri:1, instance:day6.LabAssignmentParsingJsonResponse@7d8995e]" started-at="2025-06-26T09:04:49 IST" name="testSimpleJsonParsingValidation" finished-at="2025-06-26T09:04:50 IST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRecentOrdersValidation -->
-        <test-method signature="testPreferencesAndMetadataValidation()[pri:2, instance:day5.AssignmentParsingComplexResponseJson@7d8995e]" started-at="2025-06-25T08:29:00 IST" name="testPreferencesAndMetadataValidation" finished-at="2025-06-25T08:29:00 IST" duration-ms="88" status="PASS">
+        </test-method> <!-- testSimpleJsonParsingValidation -->
+        <test-method signature="testnestedJsonParsingValidation()[pri:2, instance:day6.LabAssignmentParsingJsonResponse@7d8995e]" started-at="2025-06-26T09:04:50 IST" name="testnestedJsonParsingValidation" finished-at="2025-06-26T09:04:51 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPreferencesAndMetadataValidation -->
-      </class> <!-- day5.AssignmentParsingComplexResponseJson -->
+        </test-method> <!-- testnestedJsonParsingValidation -->
+      </class> <!-- day6.LabAssignmentParsingJsonResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
