@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.*;
 public class CreateUserTest {
 
 	static final String Base_URL="https://gorest.co.in/public/v2/users";
-	static final String Bearer_Token="a200d225a2009ee5db16518e5251e0c0d9f15c3f99c5d7f5cd3535a46a3304d2";
+	static final String Bearer_Token="a200d225a2009ee5db16518e5251e0c0d9f15c3f99c5d7f5cd3535a46a4404d2";
 
 	int userId ;
 
