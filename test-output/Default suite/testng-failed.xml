@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day8.CreateUserTest">
+      <class name="day9.RequestAndResponseSpecification">
         <methods>
-          <include name="createUser"/>
+          <include name="getMaleEmployess"/>
         </methods>
-      </class> <!-- day8.CreateUserTest -->
-      <class name="day8.GetUserTest">
-        <methods>
-          <include name="GetUser" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- day8.GetUserTest -->
+      </class> <!-- day9.RequestAndResponseSpecification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
