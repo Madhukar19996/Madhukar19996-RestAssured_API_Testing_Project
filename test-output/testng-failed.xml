@@ -5,7 +5,8 @@
     <classes>
       <class name="day9.RequestAndResponseSpecification">
         <methods>
-          <include name="getMaleEmployess"/>
+          <include name="getEmployeesbyId"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- day9.RequestAndResponseSpecification -->
     </classes>

@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T12:07:48 IST" name="Default suite" finished-at="2025-07-09T12:07:51 IST" duration-ms="2995">
+  <suite started-at="2025-07-10T09:11:34 IST" name="Default suite" finished-at="2025-07-10T09:11:36 IST" duration-ms="2643">
     <groups>
     </groups>
-    <test started-at="2025-07-09T12:07:48 IST" name="Default test" finished-at="2025-07-09T12:07:51 IST" duration-ms="2995">
+    <test started-at="2025-07-10T09:11:34 IST" name="Default test" finished-at="2025-07-10T09:11:36 IST" duration-ms="2643">
       <class name="day9.RequestAndResponseSpecification">
-        <test-method signature="getAllEmployess()[pri:1, instance:day9.RequestAndResponseSpecification@1bd4fdd]" started-at="2025-07-09T12:07:48 IST" name="getAllEmployess" finished-at="2025-07-09T12:07:50 IST" duration-ms="2877" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:34 IST" name="setup" finished-at="2025-07-10T09:11:34 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllEmployess()[pri:1, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:34 IST" name="getAllEmployess" finished-at="2025-07-10T09:11:36 IST" duration-ms="1748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllEmployess -->
-        <test-method signature="getMaleEmployess()[pri:2, instance:day9.RequestAndResponseSpecification@1bd4fdd]" started-at="2025-07-09T12:07:50 IST" name="getMaleEmployess" finished-at="2025-07-09T12:07:51 IST" duration-ms="68" status="PASS">
+        <test-method signature="getMaleEmployess()[pri:2, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:36 IST" name="getMaleEmployess" finished-at="2025-07-10T09:11:36 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMaleEmployess -->
+        <test-method signature="getFemaleEmployess()[pri:3, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:36 IST" name="getFemaleEmployess" finished-at="2025-07-10T09:11:36 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFemaleEmployess -->
+        <test-method signature="getFirstname()[pri:4, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:36 IST" name="getFirstname" finished-at="2025-07-10T09:11:36 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstname -->
+        <test-method signature="getLastname()[pri:5, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:36 IST" name="getLastname" finished-at="2025-07-10T09:11:36 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLastname -->
+        <test-method signature="getEmployeesbyId()[pri:6, instance:day9.RequestAndResponseSpecification@30c15d8b]" started-at="2025-07-10T09:11:36 IST" name="getEmployeesbyId" finished-at="2025-07-10T09:11:36 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeesbyId -->
       </class> <!-- day9.RequestAndResponseSpecification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
