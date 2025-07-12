@@ -1,0 +1,58 @@
+[
+  {
+    "username": "admin",
+    "password": "password123",
+    "firstname": "Madhukar",
+    "lastname": "Pandey",
+    "totalprice": 1111,
+    "depositpaid": true,
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01",
+    "additionalneeds": "Breakfast"
+  },
+  {
+    "username": "admin",
+    "password": "password123",
+    "firstname": "Ishita",
+    "lastname": "Bhatt",
+    "totalprice": 2000,
+    "depositpaid": false,
+    "checkin": "2022-05-01",
+    "checkout": "2022-05-10",
+    "additionalneeds": "Lunch"
+  },
+  {
+    "username": "admin",
+    "password": "password123",
+    "firstname": "Simran",
+    "lastname": "Rahi",
+    "totalprice": 2500,
+    "depositpaid": true,
+    "checkin": "2025-05-01",
+    "checkout": "2025-05-10",
+    "additionalneeds": "Breakfast,Dinner"
+    },
+	{
+	  "username": "admin",
+	  "password": "password123",
+	  "firstname": "Harsh",
+	  "lastname": "Gupta",
+	  "totalprice": 2200,
+	  "depositpaid": false,
+	  "checkin": "2025-08-07",
+	  "checkout": "2025-08-10",
+	  "additionalneeds": "Breakfast,Dinner"
+	   },
+	  {
+	    "username": "admin",
+	    "password": "password123",
+	    "firstname": "Ayush",
+	    "lastname": "Kumar",
+	    "totalprice": 3500,
+	    "depositpaid": false,
+	    "checkin": "2025-09-15",
+	    "checkout": "2025-05-17",
+	    "additionalneeds": "Breakfast,Lunch,Dinner"
+	     }
+	   	
+]

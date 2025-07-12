@@ -1,0 +1,6 @@
+username,password,firstname,lastname,totalprice,depositpaid,checkin,checkout,additionalneeds
+admin,password123,Madhukar,Pandey,1111,True,2018-01-01,2019-01-01,Breakfast
+admin,password123,Ishita,Bhatt,2000,False,2022-05-01,2022-05-10,Lunch
+admin,password123,Simran,Rahi,2500,True,2025-05-01,2025-05-10,"Breakfast,Dinner"
+admin,password123,Harsh,Gupta,2200,False,2025-08-07,2025-08-10,"Breakfast,Dinner"
+admin,password123,Ayush,Kumar,3500,False,2025-09-15,2025-05-17,"Breakfast,Lunch,Dinner"
