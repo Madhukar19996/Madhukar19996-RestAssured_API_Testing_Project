@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day11.GraphQLMutationTests">
+      <class name="day10.DataDrivenTesting">
         <methods>
-          <include name="testupdateTodos"/>
-          <include name="testInsertTodo"/>
+          <include name="testWithExcelData" invocation-numbers="4"/>
         </methods>
-      </class> <!-- day11.GraphQLMutationTests -->
+      </class> <!-- day10.DataDrivenTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
